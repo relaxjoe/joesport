@@ -1,0 +1,23 @@
+function Video() {
+  return <>
+  <section class="video-section prelative text-center white">
+  <div class="section-padding video-overlay">
+    <div class="container">
+      <h3>Watch Now</h3>
+      <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+      <div class="video-popup">
+        <div class="video-src">
+          <div class="iframe-src">
+            {/* todo make video */}
+            <iframe src="https://www.youtube.com/embed/Ku52zNnft8k?rel=0&amp;showinfo=0" allowFullScreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  </>
+}
+
+export default Video;

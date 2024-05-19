@@ -1,3 +1,5 @@
+import projects from "../../assets/projects.json";
+import CardBody from "../cardbody";
 function Card () {
 return <> 
 	<section id="explore" class="explore">
@@ -8,13 +10,17 @@ return <>
 				</div>
 				<div class="explore-content">
 					<div class="row">
-						<div class=" col-md-4 col-sm-6">
+                        {projects.map(project=>{
+
+                        return<CardBody project={project}/>
+                        })}
+						{/* <div class=" col-md-4 col-sm-6">
 							<div class="single-explore-item">
 								<div class="single-explore-img">
                                 <img class="w-100" src="/images/datenight.png" alt="project 1"/>
 									<div class="single-explore-img-info">
-										{/* <button onclick="window.location.href='#'">best rated</button> */}
-										{/* <div class="single-explore-image-icon-box">
+										<button onclick="window.location.href='#'">best rated</button> 
+										<div class="single-explore-image-icon-box">
 											<ul>
 												<li>
 													<div class="single-explore-image-icon">
@@ -27,26 +33,26 @@ return <>
 													</div>
 												</li>
 											</ul>
-										</div> */}
+										</div>
 									</div>
 								</div>
 								<div class="single-explore-txt bg-theme-1">
 									<h3><a href="#">Date Night Planner</a></h3>
 									<p class="explore-rating-price">
-										{/* <span class="explore-rating">5.0</span>
-										<a href="#"> 10 ratings</a>  */}
-										{/* <span class="explore-price-box">
+										<span class="explore-rating">5.0</span>
+										<a href="#"> 10 ratings</a>  
+										<span class="explore-price-box">
 											form
 											<span class="explore-price">5$-300$</span>
 										</span>
-										 <a href="#">resturent</a> */}
+										 <a href="#">resturent</a>
 									</p>
 									<div class="explore-person">
 										<div class="row">
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-														{/* <img class="w-100" src="/images/organized.png" alt="project 1"/> */}
+														 <img class="w-100" src="/images/organized.png" alt="project 1"/>
 													</a>
 												</div>
 											</div>
@@ -58,7 +64,7 @@ return <>
 									<div class="explore-open-close-part">
 										<div class="row">
 											<div class="col-sm-5">
-												{/* <button class="close-btn" onclick="window.location.href='#'">close now</button> */}
+												<button class="close-btn" onclick="window.location.href='#'">close now</button>
 											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
@@ -71,12 +77,12 @@ return <>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
+						</div> */}
+						{/* <div class="col-md-4 col-sm-6">
 							<div class="single-explore-item">
 								<div class="single-explore-img">
                                 <img class="w-100" src="/images/pwgen.png" alt="project 1"/>
-									{/* <div class="single-explore-img-info">
+							 <div class="single-explore-img-info">
 										<button onclick="window.location.href='#'">featured</button>
 										<div class="single-explore-image-icon-box">
 											<ul>
@@ -92,25 +98,25 @@ return <>
 												</li>
 											</ul>
 										</div>
-									</div> */}
+									</div> 
 								</div>
 								<div class="single-explore-txt bg-theme-2">
 									<h3><a href="#">Password Generator</a></h3>
 									<p class="explore-rating-price">
-										{/* <span class="explore-rating">4.5</span>
-										<a href="#"> 8 ratings</a>  */}
-										{/* <span class="explore-price-box">
+										 <span class="explore-rating">4.5</span>
+										<a href="#"> 8 ratings</a>  
+										<span class="explore-price-box">
 											form
 											<span class="explore-price">50$-500$</span>
 										</span>
-										 <a href="#">hotel</a> */}
+										 <a href="#">hotel</a> 
 									</p>
 									<div class="explore-person">
 										<div class="row">
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-														{/* <img src="/images/pwge.png" alt="pw gen"/> */}
+														<img src="/images/pwge.png" alt="pw gen"/> 
 													</a>
 												</div>
 											</div>
@@ -121,9 +127,9 @@ return <>
 									</div>
 									<div class="explore-open-close-part">
 										<div class="row">
-											{/* <div class="col-sm-5">
+											 <div class="col-sm-5">
 												<button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
-											</div> */}
+											</div> 
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
 													<a href="#"><i data-feather="map-pin"></i></a>
@@ -135,14 +141,14 @@ return <>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
+						</div> */}
+						{/* <div class="col-md-4 col-sm-6">
 							<div class="single-explore-item">
                                     <div class="single-explore-img">
                                     <img class="w-100" src="/images/quiz.png" alt="project 1"/>
-                                        {/* <div class="single-explore-img-info">
-                                            {/* <button onclick="window.location.href='#'">best rated</button> */}
-                                            {/* <div class="single-explore-image-icon-box">
+                                         <div class="single-explore-img-info">
+                                             <button onclick="window.location.href='#'">best rated</button> 
+                                             <div class="single-explore-image-icon-box">
                                                 <ul>
                                                     <li>
                                                         <div class="single-explore-image-icon">
@@ -156,11 +162,11 @@ return <>
                                                     </li>
                                                 </ul>
                                             </div>
-                                        </div> */}
+                                        </div> 
                                     </div>
 								<div class="single-explore-txt bg-theme-3">
 									<h2><a href="#">Quiz Time</a></h2>
-									{/* <p class="explore-rating-price">
+									 <p class="explore-rating-price">
 										<span class="explore-rating">5.0</span>
 										<a href="#"> 15 ratings</a> 
 										<span class="explore-price-box">
@@ -168,14 +174,14 @@ return <>
 											<span class="explore-price">5k$-10k$</span>
 										</span>
 										 <a href="#">destination</a>
-									</p> */}
+									</p> 
 									<div class="explore-person">
 										<div class="row">
 											<div class="col-sm-2">
 												<div class="explore-person-img">
-													{/* <a href="#">
+													 <a href="#">
 														<img src="assets/images/explore/person.png" alt="explore person"/>
-													</a> */}
+													</a> 
 												</div>
 											</div>
 											<div class="col-sm-10">
@@ -185,9 +191,9 @@ return <>
 									</div>
 									<div class="explore-open-close-part">
 										<div class="row">
-											{/* <div class="col-sm-5">
+											<div class="col-sm-5">
 												<button class="close-btn" onclick="window.location.href='#'">close now</button>
-											</div> */}
+											</div> 
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
 													<a href="#"><i data-feather="map-pin"></i></a>
@@ -204,8 +210,8 @@ return <>
 							<div class="single-explore-item">
 								<div class="single-explore-img">
                                 <img class="w-100" src="/images/refactor.png" alt="project 4"/>
-									{/* <div class="single-explore-img-info">
-										{/* <button onclick="window.location.href='#'">most view</button> 
+									<div class="single-explore-img-info">
+										 <button onclick="window.location.href='#'">most view</button> 
 										<div class="single-explore-image-icon-box">
 											<ul>
 												<li>
@@ -220,11 +226,11 @@ return <>
 												</li>
 											</ul>
 										</div>
-									</div> */}
+									</div> 
 								</div>
 								<div class="single-explore-txt bg-theme-4">
 									<h2><a href="#">First Project</a></h2>
-									{/* <p class="explore-rating-price">
+									<p class="explore-rating-price">
 										<span class="explore-rating">5.0</span>
 										<a href="#"> 10 ratings</a> 
 										<span class="explore-price-box">
@@ -232,14 +238,14 @@ return <>
 											<span class="explore-price">10k$-15k$</span>
 										</span>
 										 <a href="#">real estate</a>
-									</p> */}
+									</p> 
 									<div class="explore-person">
 										<div class="row">
 											<div class="col-sm-2">
 												<div class="explore-person-img">
-													{/* <a href="#">
+													<a href="#">
 														<img src="assets/images/explore/person.png" alt="explore person"/>
-													</a> */}
+													</a> 
 												</div>
 											</div>
 											<div class="col-sm-10">
@@ -249,9 +255,9 @@ return <>
 									</div>
 									<div class="explore-open-close-part">
 										<div class="row">
-											{/* <div class="col-sm-5">
+											 <div class="col-sm-5">
 												<button class="close-btn" onclick="window.location.href='#'">close now</button>
-											</div> */}
+											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
 													<a href="#"><i data-feather="map-pin"></i></a>
@@ -268,8 +274,8 @@ return <>
 							<div class="single-explore-item">
 								<div class="single-explore-img">
                                 <img class="w-100" src="/images/organized.png" alt="project 4"/>
-									{/* <div class="single-explore-img-info">
-										{/* <button onclick="window.location.href='#'">featured</button>
+									<div class="single-explore-img-info">
+										 <button onclick="window.location.href='#'">featured</button>
 										<div class="single-explore-image-icon-box">
 											<ul>
 												<li>
@@ -284,11 +290,11 @@ return <>
 												</li>
 											</ul>
 										</div>
-									</div> */}
+									</div>
 								</div>
 								<div class="single-explore-txt bg-theme-2">
 									<h2><a href="#">Organized Day</a></h2>
-									{/* <p class="explore-rating-price">
+									 <p class="explore-rating-price">
 										<span class="explore-rating">4.2</span>
 										<a href="#"> 8 ratings</a> 
 										<span class="explore-price-box">
@@ -296,13 +302,13 @@ return <>
 											<span class="explore-price">500$-1200$</span>
 										</span>
 										 <a href="#">automotion</a>
-									</p> */}
+									</p> 
 									<div class="explore-person">
 										<div class="row">
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-														{/* <img src="assets/images/explore/person.png" alt="explore person"/> */}
+														<img src="assets/images/explore/person.png" alt="explore person"/> 
 													</a>
 												</div>
 											</div>
@@ -314,7 +320,7 @@ return <>
 									<div class="explore-open-close-part">
 										<div class="row">
 											<div class="col-sm-5">
-												{/* <button class="close-btn open-btn" onclick="window.location.href='#'">open now</button> */}
+												 <button class="close-btn open-btn" onclick="window.location.href='#'">open now</button> 
 											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
@@ -332,7 +338,7 @@ return <>
 							<div class="single-explore-item">
 								<div class="single-explore-img">
                                 <img class="w-100" src="/images/nerdle.png" alt="project 4"/>
-									{/* <div class="single-explore-img-info">
+									<div class="single-explore-img-info">
 										<button onclick="window.location.href='#'">best rated</button> 
 										<div class="single-explore-image-icon-box">
 											<ul>
@@ -348,25 +354,25 @@ return <>
 												</li>
 											</ul>
 										</div>
-									</div> */}
+									</div> 
 								</div>
 								<div class="single-explore-txt bg-theme-5">
 									<h2><a href="#">Nerdle(Wordle)</a></h2>
 									<p class="explore-rating-price">
-										{/* <span class="explore-rating">5.0</span>
+									 <span class="explore-rating">5.0</span>
 										<a href="#"> 15 ratings</a> 
 										<span class="explore-price-box">
 											form
 											<span class="explore-price">5k$-10k$</span>
-										</span> */}
-										 {/* <a href="#">destination</a> */}
+										</span> 
+										  <a href="#">destination</a> 
 									</p>
 									<div class="explore-person">
 										<div class="row">
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-                                                    {/* <img class="w-100" src="/images/refractor.png" alt="project 4"/> */}
+                                                    <img class="w-100" src="/images/refractor.png" alt="project 4"/> 
 													</a>
 												</div>
 											</div>
@@ -378,7 +384,7 @@ return <>
 									<div class="explore-open-close-part">
 										<div class="row">
 											<div class="col-sm-5">
-												{/* <button class="close-btn" onclick="window.location.href='#'">close now</button> */}
+												<button class="close-btn" onclick="window.location.href='#'">close now</button> 
 											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">
@@ -391,7 +397,7 @@ return <>
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

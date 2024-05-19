@@ -3,7 +3,7 @@
 	margin:0;
 }
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poetsen One';
 	font-size: 14px;
 }
 a {
@@ -97,8 +97,8 @@ h6 {
 	position: relative;
 }
 .banner {
-	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: #7c73e6;
+	background: linear-gradient(to left, red, #cd9ffa);
 	padding:100px 0px;
 	position:relative;
 }

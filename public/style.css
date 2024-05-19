@@ -223,7 +223,7 @@ h6 {
 	overflow: hidden;
 }
 .video-overlay {
-	background: linear-gradient(to left, rgba(122, 96, 255, 0.90), rgba(205, 159, 250, 0.90));
+	background: linear-gradient(to left, rgba(241, 38, 7, 0.9), rgba(205, 159, 250, 0.90));
 }
 .video-section h3 {
 	font-weight: 600;
@@ -236,7 +236,7 @@ h6 {
 	height: 70px;
 	border-radius: 100px;
 	background: #ffffff;
-	color: #8e1efc;
+	color: red;
 	font-size: 30px;
 	line-height: 70px;
 	margin: 0 auto;

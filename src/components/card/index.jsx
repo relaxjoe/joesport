@@ -5,8 +5,16 @@ return <>
 	<section id="explore" class="explore">
 			<div class="container">
 				<div class="section-header">
-					<h2>Portfolio</h2>
-					<p>Below are a representation of myself and projects I have created thus far!  Take a gander</p>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<br></br>
+					<h1>Portfolio</h1>
+					<br></br>
+					<h5>Below are a representation of myself and projects I have created thus far!  Take a gander</h5>
+					<br></br>
+					<br></br>
 				</div>
 				<div class="explore-content">
 					<div class="row">

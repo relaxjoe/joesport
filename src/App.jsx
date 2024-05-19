@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/navbar'
 import Banner from './components/banner'
 import About from './pages/about'
+import Card from './components/card'
 import Video from './components/video'
 import Contact from './pages/contact'
 
@@ -17,6 +18,7 @@ function App() {
 <Banner />
 <About />
 <Video />
+<Card />
 <Contact />
 
     </>

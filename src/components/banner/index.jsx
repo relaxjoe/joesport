@@ -1,6 +1,5 @@
 function Banner() {
 
-
     return <>
     <section class="banner" data-scroll-index='0'>
   <div class="banner-overlay">
@@ -12,8 +11,8 @@ function Banner() {
             <h6 class="white">See more on <a href="https://github.com/relaxjoe?tab=repositories" target="_blank" rel="dofollow" class="weblink">github</a>.</h6>
             <p class="banner-text white">Welcome to my portfolio, Below is my work and ways to contact me!</p>
             <ul>
-              {/* <li><a href="#"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
-              <li><a href="#"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li> */}
+              {/* <li><a href="#"><img src="images/.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
+              <li><a href="#"><img src="images/.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li> */}
             </ul>
           </div>
         </div>

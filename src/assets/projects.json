@@ -7,38 +7,38 @@
         "description": "The Date Night Planner is an innovative web application meticulously crafted to assist both couples and individuals in orchestrating an idyllic date night experience. "
     },
     {
-        "title": "Date Night Planner",
-        "image": "/images/datenight.png",
-        "github": "https://github.com/Tabi-Led/DateNightPlanner",
-        "deployed": "https://tabi-led.github.io/DateNightPlanner/",
-        "description": "The Date Night Planner is an innovative web application meticulously crafted to assist both couples and individuals in orchestrating an idyllic date night experience. "
+        "title": "Passsword Generator",
+        "image": "/images/pwgen.png",
+        "github": "https://github.com/relaxjoe/PWGEN24",
+        "deployed": "https://relaxjoe.github.io/PWGEN24/",
+        "description": "Create a secure password with this password generator."
     },
     {
-        "title": "Date Night Planner",
-        "image": "/images/datenight.png",
-        "github": "https://github.com/Tabi-Led/DateNightPlanner",
-        "deployed": "https://tabi-led.github.io/DateNightPlanner/",
-        "description": "The Date Night Planner is an innovative web application meticulously crafted to assist both couples and individuals in orchestrating an idyllic date night experience. "
+        "title": "Quiz Time",
+        "image": "/images/quiz.png",
+        "github": "https://github.com/relaxjoe/SillyQuiz",
+        "deployed": "https://relaxjoe.github.io/SillyQuiz/",
+        "description": "Silly Quiz is an interactive web-based quiz application designed to test users. The quiz includes multiple-choice questions and tracks user scores. It's built using HTML, CSS, and JavaScript, offering a responsive and engaging user experience."
     },
     {
-        "title": "Date Night Planner",
-        "image": "/images/datenight.png",
-        "github": "https://github.com/Tabi-Led/DateNightPlanner",
-        "deployed": "https://tabi-led.github.io/DateNightPlanner/",
-        "description": "The Date Night Planner is an innovative web application meticulously crafted to assist both couples and individuals in orchestrating an idyllic date night experience. "
+        "title": "First Project",
+        "image": "/images/refactor.png",
+        "github": "https://github.com/relaxjoe/urban-octo-telegram",
+        "deployed": "https://relaxjoe.github.io/urban-octo-telegram/",
+        "description": "First project, refactor code to make it more accessible."
     },
     {
-        "title": "Date Night Planner",
-        "image": "/images/datenight.png",
-        "github": "https://github.com/Tabi-Led/DateNightPlanner",
-        "deployed": "https://tabi-led.github.io/DateNightPlanner/",
-        "description": "The Date Night Planner is an innovative web application meticulously crafted to assist both couples and individuals in orchestrating an idyllic date night experience. "
+        "title": "Organized Day",
+        "image": "/images/organized.png",
+        "github": "https://github.com/relaxjoe/OrganizedDay",
+        "deployed": "https://relaxjoe.github.io/OrganizedDay/",
+        "description": "The Work Day Scheduler is a dynamic web application designed to help professionals manage their daily schedules."
     },
     {
-        "title": "Date Night Planner",
-        "image": "/images/datenight.png",
-        "github": "https://github.com/Tabi-Led/DateNightPlanner",
-        "deployed": "https://tabi-led.github.io/DateNightPlanner/",
-        "description": "The Date Night Planner is an innovative web application meticulously crafted to assist both couples and individuals in orchestrating an idyllic date night experience. "
+        "title": "Nerdle",
+        "image": "/images/nerdle.png",
+        "github": "https://github.com/relaxjoe/wordgame",
+        "deployed": "https://dnerdlegame-1754decb700a.herokuapp.com/",
+        "description": "Wordle like game, Make an account and guess a word!. "
     }
 ]

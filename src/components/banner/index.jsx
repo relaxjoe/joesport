@@ -20,7 +20,7 @@ function Banner() {
       </div>
     </div>
   </div>
-  <span class="svg-wave"> <img class="svg-hero" src="images/applight-wave.svg"/> </span> </section>
+  {/* <span class="svg-wave"> <img class="svg-hero" src="images/applight-wave.svg"/> </span>*/} </section>
     </>
 }
 

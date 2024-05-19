@@ -431,18 +431,18 @@ input {
 .btn-grad {
  padding: .7rem 2rem;
 	display: inline-block;
-	color: #fff;
+	color: black;
 	border-radius: 2rem;
 	border: 0;
 	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: linear-gradient(to left, red, #cd9ffa);
 	cursor:pointer;
 }
 .contact-info {
 	padding: 2rem 2rem 1rem;
-	border-radius: 8px;
+	border-radius: 18px;
 	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: linear-gradient(to left, red, #cd9ffa);
 }
 .contact-item {
 	margin:23px 0px;

@@ -16,7 +16,7 @@ return<>
         <div class="sectioner-header text-center">
           <h3>Contact Me</h3>
           <span class="line"></span>
-          <p>Shoot me and email and lets get to work!</p>
+          <p>Shoot an email and lets get to work!</p>
         </div>
         <div class="section-content">
           <div class="row">
@@ -36,7 +36,7 @@ return<>
               </form>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-4">
-              <div class="contact-info white">
+              <div class="contact-info black">
                 <div class="contact-item media"> <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
                   <div class="media-body">
                     <p class="text-uppercase">Located</p>

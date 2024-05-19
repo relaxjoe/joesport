@@ -5,9 +5,9 @@ return<>
     <div class="row">
       <div class="col-md-12">
         <div class="sectioner-header text-center">
-          <h3>Contact us</h3>
+          <h3>Contact Me</h3>
           <span class="line"></span>
-          <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
+          <p>Shoot me and email and lets get to work!</p>
         </div>
         <div class="section-content">
           <div class="row">
@@ -30,26 +30,26 @@ return<>
               <div class="contact-info white">
                 <div class="contact-item media"> <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
                   <div class="media-body">
-                    <p class="text-uppercase">Address</p>
-                    <p class="text-uppercase">New Delhi, India</p>
+                    <p class="text-uppercase">Located</p>
+                    <p class="text-uppercase">Minneapolis, MN</p>
                   </div>
                 </div>
                 <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
                   <div class="media-body">
                     <p class="text-uppercase">Phone</p>
-                    <p class="text-uppercase"><a class="text-white" href="tel:+15173977100">009900990099</a> </p>
+                    <p class="text-uppercase"><a class="text-white" href="tel:+15173977100">510.703.2226</a> </p>
                   </div>
                 </div>
                 <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
                   <div class="media-body">
                     <p class="text-uppercase">E-mail</p>
-                    <p class="text-uppercase"><a class="text-white" href="mailto:abcdefg@gmail.com">yogeshsingh.now@gmail.com</a> </p>
+                    <p class="text-uppercase"><a class="text-white" href="mailto:abcdefg@gmail.com">joeyndiebel@gmail.com</a> </p>
                   </div>
                 </div>
                 <div class="contact-item media"> <i class="fa fa-clock media-left media-right-margin"></i>
                   <div class="media-body">
                     <p class="text-uppercase">Working Hours</p>
-                    <p class="text-uppercase">Mon-Fri 9.00 AM to 5.00PM.</p>
+                    <p class="text-uppercase">Mon-Fri 4.00 AM to 12.00PM.</p>
                   </div>
                 </div>
               </div>

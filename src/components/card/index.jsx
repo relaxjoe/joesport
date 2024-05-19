@@ -3,7 +3,7 @@ return <>
 	<section id="explore" class="explore">
 			<div class="container">
 				<div class="section-header">
-					<h2>explore</h2>
+					<h2>Portfolio</h2>
 					<p>Below are a representation of myself and projects I have created thus far!  Take a gander</p>
 				</div>
 				<div class="explore-content">
@@ -115,9 +115,7 @@ return <>
 												</div>
 											</div>
 											<div class="col-sm-10">
-												<p>
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
-												</p>
+												<p>Increase account security</p>
 											</div>
 										</div>
 									</div>
@@ -142,9 +140,9 @@ return <>
 							<div class="single-explore-item">
                                     <div class="single-explore-img">
                                     <img class="w-100" src="/images/quiz.png" alt="project 1"/>
-                                        <div class="single-explore-img-info">
+                                        {/* <div class="single-explore-img-info">
                                             {/* <button onclick="window.location.href='#'">best rated</button> */}
-                                            <div class="single-explore-image-icon-box">
+                                            {/* <div class="single-explore-image-icon-box">
                                                 <ul>
                                                     <li>
                                                         <div class="single-explore-image-icon">
@@ -158,10 +156,10 @@ return <>
                                                     </li>
                                                 </ul>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
 								<div class="single-explore-txt bg-theme-3">
-									<h2><a href="#">europe tour</a></h2>
+									<h2><a href="#">Quiz Time</a></h2>
 									{/* <p class="explore-rating-price">
 										<span class="explore-rating">5.0</span>
 										<a href="#"> 15 ratings</a> 
@@ -206,8 +204,8 @@ return <>
 							<div class="single-explore-item">
 								<div class="single-explore-img">
                                 <img class="w-100" src="/images/refactor.png" alt="project 4"/>
-									<div class="single-explore-img-info">
-										<button onclick="window.location.href='#'">most view</button>
+									{/* <div class="single-explore-img-info">
+										{/* <button onclick="window.location.href='#'">most view</button> 
 										<div class="single-explore-image-icon-box">
 											<ul>
 												<li>
@@ -222,7 +220,7 @@ return <>
 												</li>
 											</ul>
 										</div>
-									</div>
+									</div> */}
 								</div>
 								<div class="single-explore-txt bg-theme-4">
 									<h2><a href="#">First Project</a></h2>
@@ -270,8 +268,8 @@ return <>
 							<div class="single-explore-item">
 								<div class="single-explore-img">
                                 <img class="w-100" src="/images/organized.png" alt="project 4"/>
-									<div class="single-explore-img-info">
-										<button onclick="window.location.href='#'">featured</button>
+									{/* <div class="single-explore-img-info">
+										{/* <button onclick="window.location.href='#'">featured</button>
 										<div class="single-explore-image-icon-box">
 											<ul>
 												<li>
@@ -286,11 +284,11 @@ return <>
 												</li>
 											</ul>
 										</div>
-									</div>
+									</div> */}
 								</div>
 								<div class="single-explore-txt bg-theme-2">
-									<h2><a href="#">vintage car expo</a></h2>
-									<p class="explore-rating-price">
+									<h2><a href="#">Organized Day</a></h2>
+									{/* <p class="explore-rating-price">
 										<span class="explore-rating">4.2</span>
 										<a href="#"> 8 ratings</a> 
 										<span class="explore-price-box">
@@ -298,20 +296,18 @@ return <>
 											<span class="explore-price">500$-1200$</span>
 										</span>
 										 <a href="#">automotion</a>
-									</p>
+									</p> */}
 									<div class="explore-person">
 										<div class="row">
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-														<img src="assets/images/explore/person.png" alt="explore person"/>
+														{/* <img src="assets/images/explore/person.png" alt="explore person"/> */}
 													</a>
 												</div>
 											</div>
 											<div class="col-sm-10">
-												<p>
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
-												</p>
+												<p>Plan your day out and will save and follow your local machine clock!</p>
 											</div>
 										</div>
 									</div>
@@ -336,8 +332,8 @@ return <>
 							<div class="single-explore-item">
 								<div class="single-explore-img">
                                 <img class="w-100" src="/images/nerdle.png" alt="project 4"/>
-									<div class="single-explore-img-info">
-										{/* <button onclick="window.location.href='#'">best rated</button> */}
+									{/* <div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">best rated</button> 
 										<div class="single-explore-image-icon-box">
 											<ul>
 												<li>
@@ -352,39 +348,37 @@ return <>
 												</li>
 											</ul>
 										</div>
-									</div>
+									</div> */}
 								</div>
 								<div class="single-explore-txt bg-theme-5">
-									<h2><a href="#">thailand tour</a></h2>
+									<h2><a href="#">Nerdle(Wordle)</a></h2>
 									<p class="explore-rating-price">
-										<span class="explore-rating">5.0</span>
+										{/* <span class="explore-rating">5.0</span>
 										<a href="#"> 15 ratings</a> 
 										<span class="explore-price-box">
 											form
 											<span class="explore-price">5k$-10k$</span>
-										</span>
-										 <a href="#">destination</a>
+										</span> */}
+										 {/* <a href="#">destination</a> */}
 									</p>
 									<div class="explore-person">
 										<div class="row">
 											<div class="col-sm-2">
 												<div class="explore-person-img">
 													<a href="#">
-                                                    <img class="w-100" src="/images/refractor.png" alt="project 4"/>
+                                                    {/* <img class="w-100" src="/images/refractor.png" alt="project 4"/> */}
 													</a>
 												</div>
 											</div>
 											<div class="col-sm-10">
-												<p>
-													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
-												</p>
+												<p>Wordle like game, Make an account and guess a word!</p>
 											</div>
 										</div>
 									</div>
 									<div class="explore-open-close-part">
 										<div class="row">
 											<div class="col-sm-5">
-												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+												{/* <button class="close-btn" onclick="window.location.href='#'">close now</button> */}
 											</div>
 											<div class="col-sm-7">
 												<div class="explore-map-icon">

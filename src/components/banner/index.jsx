@@ -16,7 +16,7 @@ function Banner() {
             </ul>
           </div>
         </div>
-        <div class="col-md-4 col-sm-12"> <img src="images/iphone-screen.png" class="img-fluid wow fadeInUp"/> </div>
+        <div class="col-md-4 col-sm-12"> <img src="images/me.png" class="img-fluid wow fadeInUp"/> </div>
       </div>
     </div>
   </div>

@@ -10,19 +10,20 @@ import Video from './components/video'
 import Contact from './pages/contact'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-<Navbar />
-<Banner />
-<About />
-<Video />
-<Card />
-<Contact />
-
-    </>
-  )
-}
-
-export default App
+    const [count, setCount] = useState(0)
+  
+    return (
+      <>
+  <Navbar />
+  <Banner />
+  <About />
+  <Video />
+  <Card />
+  <Contact />
+  
+      </>
+    )
+  }
+  
+  export default App
+  

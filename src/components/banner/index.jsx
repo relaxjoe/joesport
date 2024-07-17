@@ -10,10 +10,12 @@ function Banner() {
             <h2 class="white">Joseph Diebel</h2>
             <h6 class="white">See more on <a href="https://github.com/relaxjoe?tab=repositories" target="_blank" rel="dofollow" class="weblink">github</a>.</h6>
             <p class="banner-text white">Welcome to my portfolio, Below is my work and ways to contact me!</p>
+            <div>
             <ul>
-              <li><a href="#"><img src="images/resume.png" class="wow fadeInUp " data-wow-delay="0.4s"/></a></li>
+              <li><a href="https://www.linkedin.com/in/joseph-diebel/" target="_blank" rel="dofollow" class="weblink"><img src="images/resume.png" class="wow fadeInUp " data-wow-delay="0.4s" style={{ width: '500px', height: 'auto' }} /></a></li>
               {/* <li><a href="#"><img src="images/.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>  */}
             </ul>
+            </div>
           </div>
         </div>
         <div class="col-md-4 col-sm-12"> <img src="images/me.png" class="img-fluid wow fadeInUp"/> </div>

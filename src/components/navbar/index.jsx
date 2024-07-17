@@ -10,8 +10,8 @@ function Navbar (){
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="1">About</a> </li>
         {/* <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Features</a> </li>
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Team</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Testimonials</a> </li> */}
-        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Resume</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Testimonials</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Resume</a> </li> */}
         <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Contact</a> </li>
       </ul>
     </div>

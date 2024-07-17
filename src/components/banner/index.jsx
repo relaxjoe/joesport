@@ -7,11 +7,11 @@ function Banner() {
       <div class="row">
         <div class="col-md-8 col-sm-12">
           <div class="banner-text">
-            <h2 class="white">Joseph Diebel</h2>
+            <h2 class="white">Joseph Diebel</h2> 
             <h6 class="white">See more on <a href="https://github.com/relaxjoe?tab=repositories" target="_blank" rel="dofollow" class="weblink">github</a>.</h6>
             <p class="banner-text white">Welcome to my portfolio, Below is my work and ways to contact me!</p>
             <ul>
-              <li><a href="https://www.linkedin.com/in/joseph-diebel/" target="_blank" rel="dofollow" class="weblink"><img src="/images/resume.png" class="wow fadeInUp " data-wow-delay="0.4s" style={{ width: '300px', height: 'auto' }} /></a></li>
+              <li><a href="https://www.linkedin.com/in/joseph-diebel/" target="_blank" rel="dofollow" class="weblink"><img src="/images/resume.png" class="wow fadeInUp resume" data-wow-delay="0.4s" style={{ width: '500px', height: 'auto' }} /></a></li>
               {/* <li><a href="#"><img src="images/.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>  */}
             </ul>
           </div>

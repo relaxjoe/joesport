@@ -22,4 +22,4 @@ function Navbar (){
 }
 
 export default Navbar;
-
+//add more components to the navbar

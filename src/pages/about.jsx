@@ -19,8 +19,8 @@ return <>
             </div>
             <div class="col-md-4">
               <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-mobile" aria-hidden="true"></i>
-                <h5>(working)</h5>
-                <p>i am good too</p>
+                <h5>Organized</h5>
+                <p>Successfully maintaining team cohesion and fostering a collaborative environment to effectively tackle and resolve challenges.</p>
               </div>
             </div>
             <div class="col-md-4">

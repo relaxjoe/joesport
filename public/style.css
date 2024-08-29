@@ -627,7 +627,8 @@ h3 {
 
   .resume {
 	width: 50%; /* Full width */
-	height: auto; /* Maintain aspect ratio */
+	height: auto;
+	 /* Maintain aspect ratio */
   }
   
   @media (max-width: 576px) {

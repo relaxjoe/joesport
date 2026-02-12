@@ -110,7 +110,7 @@ ${formState.message}
               Thank You!
             </h3>
             <p className="text-lg text-muted-700 mb-6">
-              Your inquiry has been sent. I'll get back to you within 24 hours to discuss your project.
+              Your inquiry has been sent. I&apos;ll get back to you within 24 hours to discuss your project.
             </p>
             <button
               onClick={() => setSubmitted(false)}
@@ -140,7 +140,7 @@ ${formState.message}
           </h2>
           <p className="text-xl text-muted-600 max-w-2xl mx-auto">
             Ready to transform your business with custom development and marketing automation? 
-            Let's discuss your project.
+            Let&apos;s discuss your project.
           </p>
         </motion.div>
 

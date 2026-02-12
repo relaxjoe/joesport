@@ -68,6 +68,37 @@ const stackItems = [
   }
 ];
 
+// Color mapping for complete Tailwind class names
+const colorClasses = {
+  sage: {
+    bg: 'bg-gradient-to-br from-white to-sage-50',
+    ring: 'ring-sage-500',
+    text: 'text-sage-800',
+    textLight: 'text-sage-600',
+    textIcon: 'text-sage-400 group-hover:text-sage-600',
+    border: 'border-sage-200',
+    bullet: 'text-sage-500'
+  },
+  ocean: {
+    bg: 'bg-gradient-to-br from-white to-ocean-50',
+    ring: 'ring-ocean-500',
+    text: 'text-ocean-800',
+    textLight: 'text-ocean-600',
+    textIcon: 'text-ocean-400 group-hover:text-ocean-600',
+    border: 'border-ocean-200',
+    bullet: 'text-ocean-500'
+  },
+  muted: {
+    bg: 'bg-gradient-to-br from-white to-muted-50',
+    ring: 'ring-muted-500',
+    text: 'text-muted-800',
+    textLight: 'text-muted-600',
+    textIcon: 'text-muted-400 group-hover:text-muted-600',
+    border: 'border-muted-200',
+    bullet: 'text-muted-500'
+  }
+};
+
 function RelaxiStackSection() {
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -114,14 +145,15 @@ function RelaxiStackSection() {
           whileInView="show"
           viewport={{ once: true }}
         >
-          {stackItems.map((tech, index) => (
+          {stackItems.map((tech, index) => {
+            const colors = colorClasses[tech.color];
+            return (
             <motion.div
               key={tech.name}
               variants={item}
-              className={`bento-card cursor-pointer relative overflow-hidden group
+              className={`bento-card cursor-pointer relative overflow-hidden group ${colors.bg}
                 ${index === 0 || index === 7 ? 'md:col-span-2' : ''}
-                ${selectedItem?.name === tech.name ? 'ring-2 ring-' + tech.color + '-500' : ''}
-                bg-gradient-to-br from-white to-${tech.color}-50
+                ${selectedItem?.name === tech.name ? `ring-2 ${colors.ring}` : ''}
               `}
               onClick={() => setSelectedItem(tech)}
               whileHover={{ scale: 1.02 }}
@@ -132,16 +164,16 @@ function RelaxiStackSection() {
                 <div className="flex items-center space-x-3">
                   <span className="text-4xl">{tech.icon}</span>
                   <div>
-                    <h3 className={`text-xl font-bold text-${tech.color}-800`}>
+                    <h3 className={`text-xl font-bold ${colors.text}`}>
                       {tech.name}
                     </h3>
-                    <span className={`text-sm text-${tech.color}-600 font-medium`}>
+                    <span className={`text-sm font-medium ${colors.textLight}`}>
                       {tech.category}
                     </span>
                   </div>
                 </div>
                 <motion.svg
-                  className={`w-5 h-5 text-${tech.color}-400 group-hover:text-${tech.color}-600 transition-colors`}
+                  className={`w-5 h-5 ${colors.textIcon} transition-colors`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -165,12 +197,12 @@ function RelaxiStackSection() {
                 }}
                 className="overflow-hidden"
               >
-                <div className={`pt-4 border-t border-${tech.color}-200`}>
+                <div className={`pt-4 border-t ${colors.border}`}>
                   <p className="text-xs font-semibold text-muted-600 mb-2">Use Cases:</p>
                   <ul className="space-y-1">
                     {tech.useCases.map((useCase, i) => (
                       <li key={i} className="flex items-start space-x-2 text-sm text-muted-700">
-                        <span className={`text-${tech.color}-500 mt-0.5`}>•</span>
+                        <span className={`${colors.bullet} mt-0.5`}>•</span>
                         <span>{useCase}</span>
                       </li>
                     ))}
@@ -178,7 +210,8 @@ function RelaxiStackSection() {
                 </div>
               </motion.div>
             </motion.div>
-          ))}
+            );
+          })}
         </motion.div>
 
         {/* Integration visual */}
@@ -211,7 +244,7 @@ function RelaxiStackSection() {
           </div>
           <p className="mt-6 text-muted-600 max-w-2xl mx-auto">
             By combining full-stack development with marketing automation, 
-            I build systems that don't just work—they drive measurable business growth.
+            I build systems that don&apos;t just work—they drive measurable business growth.
           </p>
         </motion.div>
       </div>

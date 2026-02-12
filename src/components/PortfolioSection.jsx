@@ -254,7 +254,7 @@ function PortfolioSection() {
               These projects showcase the foundation. Ready to build something custom for your business?
             </p>
             <a href="#contact" className="btn-primary">
-              Let's Build Together
+              Let&apos;s Build Together
             </a>
           </div>
         </motion.div>
